@@ -1,0 +1,257 @@
+body{
+background-image: url("pexels-francesco-ungaro-281260.jpg");
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.divM{
+height: 500px ;
+width: fit-content;
+margin-bottom: 1.5cm;
+margin-left: 1cm;
+margin-right: 1cm;
+border-radius: 30px ;
+background-color: transparent;
+box-shadow: inset;
+box-shadow: 5px 5px 5px  black;
+margin-top: 2.5cm;
+
+}
+.div1{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: fixed;
+    top: 10px;
+;
+    
+}
+P{
+    color: white;
+    font-size: 6mm;
+}
+#p{
+    margin-left: 19cm;
+}
+#p1{
+   
+    font-size: medium;
+    padding-top: 3mm;
+    display: inline-block;
+    
+}
+
+#p2{
+    font-size: medium;
+    padding-top: 3mm;
+    display: inline-block;
+
+}
+#p3{
+
+    font-size: medium;
+    padding-top: 3mm;
+    display: inline-block;
+}
+#p4{
+    font-size: medium;
+    padding-top: 3mm;
+    display: inline-block;
+}
+#p5{
+
+    font-size: medium;
+    padding-top: 3mm;
+    display: inline-block;
+}
+
+
+#p1:after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: white;
+    transition: 300ms;
+
+}
+
+#p2:after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: white;
+    transition: 300ms;
+
+}
+
+
+#p3:after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: white;
+    transition: 300ms;
+
+}
+
+#p4:after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: white;
+    transition: 300ms;
+
+}
+
+#p5:after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: white;
+    transition: 300ms;
+
+}
+
+#p1:hover:after{
+    width: 100%
+}
+#p2:hover:after{
+    width: 100%
+}
+#p3:hover:after{
+    width: 100%
+}
+#p4:hover:after{
+    width: 100%
+}
+#p5:hover:after{
+    width: 100%
+}
+
+#p1:hover{
+    color: red;
+text-wrap: wrap;
+
+}
+#p2:hover{
+    color: red;
+
+}
+#p3:hover{
+    color: red;
+   
+}
+#p4:hover{
+    color: red;
+}
+#p5:hover{
+    color: red;
+    
+}
+.un {
+    display: inline-block;
+  }
+  
+  .un:after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: white;
+    transition: 300ms;
+  }
+  
+  .un:hover:after {
+    width: 100%
+  }
+
+
+
+.div2{
+width: fit-content;
+height: fit-content;
+margin-left: 4cm;
+display: flex;
+flex-direction: row;
+margin-right: 4cm;
+
+}
+
+.img1{
+
+    margin-left: 2cm;  
+    width: 250px;
+    height: 250px;
+    margin-top: 2cm;
+    border-radius: 120px;
+    box-shadow: 7px 7px 4px black;
+    
+
+}
+#div3{
+width: fit-content;
+height: fit-content;
+
+}
+.t1{
+    font-size: 12mm; 
+    margin-top: 2cm; 
+    
+}
+.t1:hover{
+    filter: brightness(2);
+    text-shadow: 6px 6px 6px black;
+
+}
+.t2{
+    font-size: 8mm; 
+    margin-top: 0%; 
+    
+}
+.t2:hover{
+    filter: brightness(2);
+}
+button{
+    border-radius: 50px;
+    background-color: rgb(67, 67, 196);
+
+}
+button:hover{
+    color: white;  
+    filter: brightness(2);
+    
+}
+
+.sm{
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    margin-left: 1cm;
+}
+.fb {
+    width:35px; height:31px;
+  }
+  .fb:hover{
+    opacity: 0.5;
+  }
+  .insta{
+    width:35px; height:35px;
+  }
+  .insta:hover{
+    opacity: 0.5;
+  }
+
