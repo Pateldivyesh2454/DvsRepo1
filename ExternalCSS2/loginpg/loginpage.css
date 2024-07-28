@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    border: 2px groove gray;
+    margin-left: 3cm;
+margin-right: 3cm;  
+border-radius: 10px;
+background-color: seashell;
+}
+.div1{
+display: flex;
+flex-direction: row;
+width: fit-content;
+height: fit-content;
+align-items: center;
+margin-top: 4cm;
+background-color: wheat;
+border-radius: 10px;
+box-shadow: 8px 10px 4px gray;
+margin-bottom: 2.5cm;
+
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+   align-content: flex-start;
+   text-align: justify;
+   background-color: wheat;
+   border-radius: 10px;
+
+    }
+    .div3{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 400px;
+       align-content: flex-start;
+       text-align: justify;
+       border-radius:  10px ;
+    
+        }
+    form{
+        padding-left: 1cm;
+        padding-top: 1cm;
+        font-size: 5mm;
+        color: gray;
+        font-style: italic;
+        background-color: wheat;
+    }
+    input{
+        background-color: wheat;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  color: gray;
+    }
+    P{
+        text-align: center;
+        color: white;
+        font-size: 1cm;
+        text-shadow: 6px 6px 3px  gray;
+    }
+    button{
+        background-color: gray;
+        padding-top: 2mm;
+        padding-left: 2mm;
+        padding-bottom: 2mm;
+        padding-right: 2mm;
+        border-radius: 5px;
+    }
+    @media screen  and (min-width:10px) and (max-width:700px)
+    {
+    
+        body{
+            height: fit-content;
+            width: fit-content;
+        }
+        form{
+            font-size: 3mm;
+        }
+        .div1{
+            width: fit-content;
+            height: fit-content;
+        }
+
+        .div2{
+            height: fit-content;
+            width: 300px;
+        }
+        .div3{
+            height: fit-content;
+            width: auto;
+        }
+    }
+    @media screen  and (min-width:700px) and (max-width:1300px)
+    {
+        
+    
+            body{
+                height: fit-content;
+                width: fit-content;
+            }
+    }

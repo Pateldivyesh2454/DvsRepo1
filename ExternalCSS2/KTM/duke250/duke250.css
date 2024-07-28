@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    border: 2px ridge;
+    border-radius: 10px;
+box-shadow: 3px 5px 5px  gray;
+padding-bottom: 2cm;
+
+ }
+ .d11{
+    text-align: center;
+    color: rgb(119, 117, 117);
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px  gray;
+    font-size: 8mm;
+    -webkit-text-stroke: 1px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 1cm;
+ }
+
+.d1{
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    margin-left: 1cm;
+    margin-right: 1cm;
+   
+}
+.d2{
+    font-size: 1cm;
+    color: gray;
+}
+.d3{
+ text-align: left;
+ font-size: 6mm;
+ color:  gray;
+
+}
+ table{
+  
+    font-size: 6mm;
+    word-spacing: 300px;
+    text-align: justify;
+    margin-bottom: 2cm;
+    margin-left: 1cm;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px gray;
+    color: grey;
+    margin-top: 5mm;
+    
+    
+ }
+ .box{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(206, 64, 64);
+  margin-left: 1.5cm;
+  border-radius: 8px 2rem;
+  box-shadow: 5px 5px 5px gray;
+  padding-top: 2mm;
+  margin-top: 10mm;
+  
+
+ }
+ .p1{
+  color: white; 
+
+ }
+ .p1:hover{
+  color: orangered;
+  font-size: 8mm;
+  text-shadow: 2px 2px 2px gray;
+ -webkit-text-stroke: 0.5px black;
+ }
+ @media only screen and  (min-width:10px) and (max-width:746px){
+    .d11{
+     width: fit-content;
+     height: fit-content;
+     font-size: medium;
+     text-align: justify;
+    }
+    body{
+        width: fit-content;
+        height: fit-content;
+        border: none;
+    
+    }
+    img{
+        width: 300px;
+        height: 150px;
+    }
+    
+ }

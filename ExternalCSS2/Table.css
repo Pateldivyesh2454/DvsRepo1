@@ -1,0 +1,89 @@
+body{
+ 
+    border: 2px solid plum;
+    background-image: url("wall.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px gray;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+
+
+
+}
+table{
+text-align: center;
+font-size: 1cm;
+width: 600px;
+height: 300px;
+border-collapse: separate;
+border-spacing: 1cm;
+margin-bottom: 1cm;
+border-radius: 10px;
+box-shadow: 6px 6px 6px gray;
+
+}
+tr,td,th{
+    border-radius: 30px;
+  
+
+}
+.d1{
+    font-size: 3cm;
+    font-style: italic;
+    font-display: initials;
+    color: seagreen;
+    display: inline;
+ flex-direction: row;
+ -webkit-text-stroke: 2px black;
+ text-shadow:  1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+ transition: margin-right 2s ease-in-out;
+}
+.d1:hover{
+    transition: margin-right 2s ease-in-out;
+
+}
+
+@media only screen and  (min-width:10px) and (max-width:700px){
+    body{
+        width: fit-content;
+        height: fit-content
+    }
+    tr,td,th{
+
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;  
+        border: none;   
+    
+     
+    }
+    
+    img{
+        width: 150px;
+        height: fit-content;
+    }
+    table{
+
+        width: fit-content;
+        height: fit-content;
+    }
+    .d1{
+        font-size: 1cm;
+        color: wheat;
+    }
+ }
+ @media only screen and  (min-width:700px) and (max-width:1300px){
+    body{
+        width: fit-content;
+        height: fit-content
+    }
+
+ }

@@ -1,0 +1,183 @@
+body{
+
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.div0{
+ border: 2px solid black;
+ background-image: url("ktm-logo.jpg");
+
+ 
+width: 1330px;
+height: 700px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ background-attachment: fixed;
+ text-align: center;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+
+
+
+}
+.div1{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+  border: 3px solid rgb(240, 202, 131);
+  background-attachment: fixed;
+  background-image: url("duke125/duke125logo-removebg-preview.png " );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 580px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px gray;
+  background-color: rgb(240, 202, 131);
+ margin-top: 5mm;
+  
+  
+
+
+}
+
+.fixed-size-image {
+    width: 500px;
+    /* Fixed width */
+    height: 400px;
+   
+    
+}
+.div2{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+ background-image: url("duke200/duke-logo200-removebg-preview.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ background-attachment: fixed;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+ margin-bottom: 1cm;
+ background-color: rgb(240, 202, 131);
+ 
+
+}
+.fixed-size-image2 {
+    width: 400px;
+    /* Fixed width */
+    height: 350px
+
+}
+.div3{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+ background-image: url("duke250/duke250logo-removebg-preview.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ background-attachment: fixed;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+ margin-bottom: 1cm;
+ background-color: rgb(240, 202, 131);
+ background-size: 300px;
+
+
+}
+.div4{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+ background-image: url("duke390/duke-390-logo-.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ background-attachment: fixed;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+ margin-bottom: 1cm;
+ background-color: rgb(240, 202, 131);
+ background-size: 300px;
+
+
+}
+.div5{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+ background-image: url("rc125/rc125logo-removebg-preview.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ background-attachment: fixed;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+ margin-bottom: 1cm;
+ background-color: rgb(240, 202, 131);
+ background-size: 350px;
+
+
+}
+.div6{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+ background-image: url("rc200/rc200logo-removebg-preview.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ background-attachment: fixed;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+ margin-bottom: 1cm;
+ background-color: rgb(240, 202, 131);
+ background-size: 400px;
+
+
+}
+.div7{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+ background-image: url("rc390/rc_390logo-removebg-preview.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ background-attachment: fixed;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+ margin-bottom: 1cm;
+ background-color: rgb(240, 202, 131);
+ background-size: 400px;
+
+
+}

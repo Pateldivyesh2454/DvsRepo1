@@ -1,0 +1,79 @@
+body{
+
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.div0{
+ border: 2px solid white;
+ background-image: url("yamahalogo33.jpeg");
+
+ 
+width: 1277px;
+height: 700px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ background-attachment: fixed;
+ text-align: center;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+
+
+
+}
+.div1{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+  border: 3px solid white;
+  background-attachment: fixed;
+  background-image: url("R15logo-removebg-preview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px gray;
+  
+
+
+}
+
+.fixed-size-image {
+    width: 300px;
+    /* Fixed width */
+    height: 200px;
+   
+    
+}
+.div2{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+ background-image: url("m15logo2-removebg-preview.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ background-attachment: fixed;
+ border-radius: 10px;
+ box-shadow: 6px 6px 5px gray;
+ margin-bottom: 1cm;
+ 
+
+}
+.fixed-size-image2 {
+    width: 400px;
+    /* Fixed width */
+    height: 350px
+
+}

@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    background-color: rgb(226, 208, 174);
+    border: 3px solid white;
+    border-radius: 7px ;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    box-shadow: 7px 7px 5px gray;
+    flex-wrap: wrap;
+}
+
+.p1{
+    font-size: 5mm;
+    flex-wrap: wrap;
+    
+}
+form{
+    text-align: justify;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 2cm;
+    padding-bottom: 1cm;
+    flex-wrap: wrap;
+}
+input{
+    color: gray;
+
+   border-right: none;
+   border-top: none;
+   border-left: none;
+   background-color:  rgb(231, 200, 142);
+   border: inset;
+border-radius: 5px;
+flex-wrap: wrap;
+
+}
+label{
+  color: gray;
+  flex-wrap: wrap;
+}
+
+fieldset{
+    border-radius: 10px 2rem;
+    box-shadow: 5px 5px 5px gray;
+    border-color: white;
+    flex-wrap: wrap;
+ 
+}
+legend{
+    border-color: gray;
+    color: grey;
+    flex-wrap: wrap;
+}
+textarea{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+     background-color:  rgb(231, 200, 142);
+     border: inset;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+select{
+    background-color:  rgb(231, 200, 142);
+    text-align: center;
+    border: inset;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+#d1{
+    background-color:  rgb(231, 200, 142);
+    flex-wrap: wrap;
+}
+#P{
+    font-size: 2cm;
+    color: rgb(127, 216, 127);
+    -webkit-text-stroke: 1px black;
+    text-shadow: 5px 5px 2px gray;
+    flex-wrap: wrap;
+}
+button{
+  border-radius: 5px 2rem;
+    background-color: rgb(233, 113, 113);
+    width: 80px;
+    height: 30px;
+    color: white;
+    box-shadow: 4px 4px 2px grey;
+    flex-wrap: wrap;
+}
+button:hover{
+    color: brown;
+    text-shadow: 2px 2px 2px brown;
+    font-size: 5mm;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 800px){
+    body {
+      background-color: lightblue;
+      width: fit-content;
+      font-size: 10px;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 800px){
+
+#P{
+font-size: 1cm;
+text-shadow: none;
+
+}
+  }
