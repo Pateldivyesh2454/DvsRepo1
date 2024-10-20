@@ -1,0 +1,338 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+background-color: black;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+
+
+.bdy {
+   width: 100%;
+   height: auto;
+   /* border: 2px solid black; */
+   padding: 1em 1em;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+
+}
+
+.bdy #icon {
+   width: 100%;
+   height: auto;
+   padding: 2px 2px;
+}
+
+
+#icon a i {
+    color: white;
+    font-size: 2rem;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+#icon a:hover i {
+    color: rgb(2, 144, 239);
+    transform: scale(1.1);
+}
+
+#icon a {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#icon a::after {
+    content: 'Go to Home';
+    position: absolute;
+    left: 50%;
+    bottom: -1.5rem;
+    transform: translateX(-50%);
+    font-size: 0.6rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+#icon a:hover::after {
+    opacity: 1;
+}
+
+#icon a:active i {
+    transform: scale(0.95);
+}
+
+
+
+
+.bdy #about {
+   width: 100%;
+   /* border: 1px solid green; */
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+   gap: 0;
+}
+
+.bdy #about h1 {
+   -webkit-text-stroke: 1px white;
+   color: transparent;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+
+}
+.bdy #about h1:hover{
+   -webkit-text-stroke: 1px rgb(2, 144, 239);
+   color: transparent;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+
+.bdy #about h4 {
+   font-size: 1.2rem;
+   word-spacing: 0;
+   font-weight: 100;
+   color: #f0f0f0;
+   font-size: 1rem;
+   line-height: 1.6;
+   text-align: justify;
+   margin-bottom: 1rem;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+   transition: color 0.3s ease;
+}
+.bdy #about h4:hover{
+   color: #ffffff;
+}
+
+
+
+
+#social {
+   width: fit-content;
+   height: auto;
+   display: flex;
+   justify-content: left;
+   border-radius: 10px;
+   padding: 0 1em;
+   /* backdrop-filter: blur(30px); */
+   box-shadow: 0 2px 1px black;
+}
+
+
+
+/* social icon */
+.sci {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 3em;
+   /* margin-bottom: 3em; */
+   padding: 0;
+   flex-wrap: wrap;
+
+}
+
+.sci li a {
+   color: white;
+}
+
+.sci li a:hover {
+   color: rgb(2, 144, 239);
+}
+
+.sci li a:active {
+   position: relative;
+   top: 2px;
+}
+
+
+#skl{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   color:  white;
+}
+#skil{
+   display: flex;
+   flex-direction: row;
+   gap: 3rem;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#skl #skil ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+#skl #skil ul li {
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 5px;
+   padding: 10px 15px;
+   margin-bottom: 10px;
+   font-size: 1rem;
+   transition: all 0.3s ease;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#skl #skil ul li:hover {
+   background-color: rgba(2, 144, 239, 0.2);
+   transform: translateY(-2px);
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#skl #skil h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(2, 144, 239, 0.5);
+    padding-bottom: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+#skl #skil h2:hover {
+    color: rgb(2, 144, 239);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #skl #skil h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #skl #skil h2 {
+        font-size: 1.75rem;
+    }
+}
+
+
+#logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+#logo img {
+   width: 80px;
+   height: 80px;
+   transition: all 0.3s ease;
+}
+
+#logo img:hover {
+   transform: scale(1.1);
+   filter: drop-shadow(0 2px 4px rgba(255, 255, 255, 0.5));
+}
+
+@media (max-width: 768px) {
+   #logo img {
+      width: 40px;
+      height: 40px;
+   }
+}
+
+@media (max-width: 480px) {
+   #logo {
+      gap: 1rem;
+   }
+   
+   #logo img {
+      width: 30px;
+      height: 30px;
+   }
+}
+
+
+
+
+/* imges */
+/* .logo {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 1rem 1rem;
+    backdrop-filter: blur(30px);
+  
+} */
+
+/* .logo #lg {
+   width: auto;
+   height: auto;
+}
+
+.logo  img{
+
+   filter: drop-shadow(0 1px 2px white);
+
+}
+
+.logo  img:hover{
+
+scale: 1.1;
+} */
+
+
+
+
+@media (max-width: 700px){
+   #skl #skil  {
+      flex-direction: column;
+      gap: 1rem;
+      font-size: 1rem;
+   }
+   #skl{
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+
+   #logo{
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;  
+   }
+   #logo img{
+      width: 80px;
+      height: 80px;
+   }
+
+}
+
+@media (max-width: 550px){
+#about h4{
+    word-spacing: 2px;
+}
+
+}

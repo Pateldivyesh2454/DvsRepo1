@@ -1,0 +1,117 @@
+body {
+    background-color: #000000;
+    color: #ffffff; /* Adding white text color for better contrast */
+}
+
+/* Adjusting card background for better visibility on dark background */
+.card {
+    background-color: #1a1a1a;
+}
+
+/* Adjusting input text color for better visibility */
+input[type="text"],
+input[type="email"],
+textarea.materialize-textarea {
+    color: #ffffff;
+}
+
+/* Adjusting label color for better visibility */
+label {
+    color: #9e9e9e;
+}
+
+/* Adjusting button color for better contrast */
+.btn, .btn-large, .btn-floating {
+    background-color:  rgb(1, 123, 204);;
+}
+
+/* Hover effect for buttons */
+.btn:hover, .btn-large:hover, .btn-floating:hover {
+    background-color:  rgb(5, 118, 193);;
+}
+
+
+
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .btn-floating.btn-large {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .btn-floating.btn-large i {
+        font-size: 1.4rem;
+        line-height: 45px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social-icons a {
+        margin: 5px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .container {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Ensure form elements are responsive */
+.input-field input[type=text],
+.input-field input[type=email],
+.input-field textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Ensure buttons are responsive */
+.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+.home-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: none;
+}
+.home-icon .btn-floating {
+    background-color: rgb(1, 123, 204);
+}
+.home-icon .btn-floating:hover {
+    background-color: rgb(5, 118, 193);
+}
